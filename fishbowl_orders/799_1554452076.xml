@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<order>
+		<order_information>
+		<order_number>799</order_number>
+		<order_date>04/05/2019 8:14 AM</order_date>
+		</order_information>
+		<billing_address>
+		<name>Matt Moore</name>
+		<phone_number>8133454618</phone_number>
+		<address>1001 Spruce St</address>
+		<zip_code>08638</zip_code>
+		<city>Trenton</city>
+		<state>NJ</state>
+		<country>US</country>
+		</billing_address>
+		<shipping_address>
+		<name>Matt Moore</name>
+		<phone_number>8133454618</phone_number>
+		<address>1001 Spruce St</address>
+		<zip_code>08638</zip_code>
+		<city>Trenton</city>
+		<state>NJ</state>
+		<country>US</country>
+		</shipping_address>
+		<order_items>
+		<order_item>
+		<item_no>8506s</item_no>
+		<title>Irrigation Tray, 60cc Bulb Syringe, Sterile, 1/each</title>
+		<price>1.75</price>
+		<quantity>1</quantity>
+		<total>1.75</total>
+		</order_item>
+		<order_item>
+		<item_no>130785</item_no>
+		<title>B Braun Ecoflac Plus Intravenous IV Solution, 0.9% Sodium Chloride, 500 mL, 1/each</title>
+		<price>3.99</price>
+		<quantity>1</quantity>
+		<total>3.99</total>
+		</order_item>
+		<order_item>
+		<item_no>160303</item_no>
+		<title>Suction Catheter Kit, Latex Free, Sterile, 14Fr, 1/each</title>
+		<price>0.99</price>
+		<quantity>1</quantity>
+		<total>0.99</total>
+		</order_item>
+		</order_items>
+		<sub_total>6.73</sub_total>
+		<shipping_handling>0.00</shipping_handling>
+		<total_before_tax>6.73</total_before_tax>
+		<tax>0.00</tax>
+		<discount>0.00</discount>
+		<order_total>6.73</order_total>
+		<payment_details>
+		<payment_method>Check</payment_method>
+		<payment_done>6.73</payment_done>
+		</payment_details>
+		</order>

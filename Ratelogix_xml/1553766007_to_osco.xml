@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<OSCO_DATA>
+				  <OSCOSecurity>
+					<Username>DanMicic updated</Username>
+					<Password>MedShip4</Password>
+				  </OSCOSecurity>
+				  <ORDER>
+					<ORDER_ID>test_order_1</ORDER_ID>
+					<MAX_CUBE_UTIL>100</MAX_CUBE_UTIL>
+				  </ORDER>
+				  <UPS>
+					<AccessLicenseNumber>5CE8D2BDB60C7525</AccessLicenseNumber>
+					<Username>DanMicic updated</Username>
+					<Password>MedShip4</Password>
+					<ShipperNumber>R8W175</ShipperNumber>
+					<GetNegotiatedRate>True</GetNegotiatedRate>
+					<ShipmentOptions>
+					  <ServiceCode>ALL</ServiceCode>
+					  <UOM>LBS</UOM>
+					  <CodCode/>
+					  <CodCurrency/>
+					  <CodAmount/>
+					  <DeliveryConfirmationType/>
+					  <SaturdayDelivery>False</SaturdayDelivery>
+					</ShipmentOptions>
+					<ShipperAddress>
+					  <AddressLine1>8060 Saint Louis Avenue</AddressLine1>
+					  <AddressLine2/>
+					  <AddressLine3/>
+					  <City>Skokie</City>
+					  <State>IL</State>
+					  <Zip>60076</Zip>
+					  <Country>US</Country>
+					</ShipperAddress>
+					<ShipFromAddress>
+					  <AddressLine1>8060 Saint Louis Avenue</AddressLine1>
+					  <AddressLine2/>
+					  <AddressLine3/>
+					  <City>Skokie</City>
+					  <State>IL</State>
+					  <Zip>60076</Zip>
+					  <Country>US</Country>
+					</ShipFromAddress>
+					<ShipToAddress>
+					  <AddressLine1>Molestiae non deseru</AddressLine1>
+					  <AddressLine2/>
+					  <AddressLine3/>
+					  <City>Voluptas veniam vol</City>
+					  <State>NV</State>
+					  <Zip>22744</Zip>
+					  <Country>US</Country>
+					</ShipToAddress>
+				  </UPS>
+				  <SKUDATA>
+					<SKU>
+					  <SKU_ID>8504s</SKU_ID>
+					  <QTY>1</QTY>
+					  <LENGTH>6</LENGTH>
+					  <WIDTH>7.5</WIDTH>
+					  <HEIGHT>2.5</HEIGHT>
+					  <WEIGHT>0.18</WEIGHT>					  
+					  
+					  <MIX_CLASS_OPTIONS>
+						<MIX_CLASS_ID>15</MIX_CLASS_ID>
+					  </MIX_CLASS_OPTIONS>
+					</SKU>
+				  </SKUDATA>
+				</OSCO_DATA>

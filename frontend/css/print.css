@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media print {
+	* {-webkit-print-color-adjust:exact;}
+	body {
+	  -webkit-print-color-adjust: exact;
+	}
+	.carousel {
+		position: relative;
+		width: 100%;
+		max-width: 1396px;
+		height: 200px;
+		margin: 0 auto;
+	}
+	.carousel-inner .item img { height: 300px; }
+	.off_uni_slider_header {    background: #f0f0f0; }
+	.owl-item { width: 188px !important; }
+	.col-lg-9 {
+		width: 73.5%;
+		float:left;
+	}
+	.col-lg-2 {
+		width: 16.66666667% !important;
+	}
+	.col-lg-3 {
+		width: 23% !important;
+		float: left;
+	}
+	.col-lg-6 {
+		width: 46%;
+		float: left;
+	}
+	.produtcover .col-lg-12 .col-lg-3 {
+		width: 30% !important;
+		float: left;
+	}
+	.contant-con .col-lg-9 .col-lg-12 {
+		padding-bottom: 45.5px !important;
+	}
+	.col-lg-4 {
+		float:left;
+		width: 33.33%;
+		margin-right: 3%;
+	}
+	.col-lg-8 {
+		width: 65.67 !important%;
+	}
+	.soc-img a img { width: 35px !important; }
+	.add_cart { 
+		background: url('http://www.medicalshipment.com/images/Product_26.png') no-repeat scroll 0 0 !important;
+		float: left;
+    	height: 38px;
+    	width: 133px;
+    	cursor: pointer;
+	}
+	.add_quote {
+		background: url('http://www.medicalshipment.com/images/Product_30.png') no-repeat scroll 0 0 !important;
+		float: left;
+		height: 38px;
+		width: 133px;
+		cursor: pointer;
+	}
+	.add_wishlist {
+		background: url('http://www.medicalshipment.com/images/wish.png') no-repeat scroll 0 0 transparent;
+		float: left;
+		height: 38px;
+		width: 133px;
+		cursor: pointer;
+	}
+	.content {
+		width: 100% !important;
+	}
+	.left_allportion {
+    	width: 60%;
+	}
+	#discount-coupon-form { display: none; }
+	.col-lg-12, #ship_panel {
+		width: 100% !important;
+	}
+	/*.col-lg-6 {
+		width: 100% !important;
+	}*/
+	.ship_speed { float: left !important; margin-left: 0 !important; }
+	.amz_change { float: right !important; }
+	.right_bigportion {
+		width: inherit;
+		float: right;
+		margin-left: 5px;
+	}
+	.addtocart {
+		background: url('http://www.medicalshipment.com/images/ms_89.png') no-repeat !important;
+		border: none;
+		width: 146px;
+		height: 65px;
+		margin: 5px 0;
+	}
+	.b-btn {
+		border: none;
+		background: url('http://www.medicalshipment.com/images/ms_11.png') no-repeat;
+		height: 38px;
+		width: 59px;
+		padding: 0px 7px;
+		margin-left: -6px;
+		border-radius: 0px;
+	}
+	.heading {
+		background: #105195 !important;
+		background: linear-gradient(to bottom, #105195 0%,#135498 47%,#2b65a5 100%) !important;
+		color: #fff !important;
+	}
+	#offlajn-universal-product-slider-90-1-container .off_uni_slider_header, #offlajn-universal-product-slider-900-1-container .off_uni_slider_header {
+    width: 100%;
+    border-radius: 2px;
+    /* margin-bottom: 20px; */
+    background: #405369 url(/modules/mod_universal_product_slider/cache/90/e793e46….png) repeat-x;
+    background: -moz-linear-gradient(top, #2d3e52, #405369);
+    background: -webkit-gradient(linear, left top, left bottom, from(#2d3e52), to(#405369));
+    background: -webkit-linear-gradient(top, #2d3e52, #405369);
+    background: -o-linear-gradient(top, #2d3e52, #405369);
+    background: -ms-linear-gradient(top, #2d3e52, #405369);
+    background: #f0f0f0 !important;
+    position: relative;
+    line-height: 0px;
+	}
+	.b-btn {
+    border: none;
+    background: url('http://www.medicalshipment.com/images/ms_11.png') no-repeat !important;
+    height: 38px;
+    width: 59px;
+    padding: 0px 7px;
+    margin-left: -6px;
+    border-radius: 0px;
+	}
+	.shopping_tabho {
+    	background: url(http://www.medicalshipment.com/images/ms_140.png) no-repeat scroll left 8px transparent !important;
+		height: 42px !important;
+		padding-right: 3px !important;
+		width: 59px !important;
+	}
+	.add_cart {
+    	background: url(http://www.medicalshipment.com/images/Product_26.png) no-repeat scroll 0 0 transparent !important;
+	}
+	.add_quote {
+    	background: url(http://www.medicalshipment.com/images/Product_30.png) no-repeat scroll 0 0 transparent !important;
+	}
+	.add_wishlist {
+    	background: url(http://www.medicalshipment.com/images/wish.png) no-repeat scroll 0 0 transparent !important;
+	}
+	.carttop-bottom {
+		background: rgb(230,230,230) !important;
+		background: -moz-linear-gradient(top, rgba(230,230,230,1) 0%, rgba(230,230,230,1) 100%) !important;
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(230,230,230,1)), color-stop(100%,rgba(230,230,230,1))) !important;
+		background: -webkit-linear-gradient(top, rgba(230,230,230,1) 0%,rgba(230,230,230,1) 100%) !important;
+		background: -o-linear-gradient(top, rgba(230,230,230,1) 0%,rgba(230,230,230,1) 100%) !important;
+		background: -ms-linear-gradient(top, rgba(230,230,230,1) 0%,rgba(230,230,230,1) 100%) !important;
+		background: linear-gradient(to bottom, rgba(230,230,230,1) 0%,rgba(230,230,230,1) 100%) !important;
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#e6e6e6',GradientType=0 ) !important;
+		color: #000333 !important;
+		font-size: 14px !important;
+		min-height: 35px !important;
+		padding-top: 5px !important;
+		border: 1px solid #dfdfdf !important;
+		color: #2a6496 !important;
+	}
+	.btncart {
+    	background: url('http://www.medicalshipment.com/images/login_btn.png') no-repeat !important;
+		min-height: 40px !important;
+		width: 210px !important;
+	}
+	.button.button span {
+		border: medium none !important;
+		color: #FFFFFF !important;
+		cursor: pointer !important;
+		float: left !important;
+		font-family: Arial,Helvetica,sans-serif !important;
+		font-weight: normal !important;
+		line-height: 2 !important;
+		margin-right: 0px !important;
+		margin-top: 0 !important;
+		min-height: 31px !important;
+		/* padding: 0 5px 2px 0; */
+		width: 210px !important;
+		font-size: 13px !important;
+		padding-top: 2px !important;
+	}
+	.h1 {
+    	font-size: 17px !important;
+    	font-weight: bold !important;
+    	text-transform: uppercase !important;
+    	color: #FFF !important;
+    	border-radius: 0px !important;
+    	background: #00478f !important;
+	}
+	.btn-remove2 {
+		display: block !important;
+		width: 100% !important;
+		height: 16px !important;
+		font-size: 0 !important;
+		line-height: 0 !important;
+		background: url(http://www.medicalshipment.com/images/btn_trash.gif) 50% 0 no-repeat !important;
+		text-indent: -999em !important;
+		overflow: hidden !important;
+	}
+	.footer {
+		background: #00478f !important;
+		color: #FFF !important;
+		padding: 10px 0 !important;
+	}
+	.b-head {
+		color: #fff !important;
+	}
+}

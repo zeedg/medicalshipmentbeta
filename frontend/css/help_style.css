@@ -1,0 +1,145 @@
+/*
+Author URI: http://webthemez.com/
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: #fff !important;
+}
+body {
+	height: 100%;
+	font-size: 14px;
+	background: #fff !important;
+}
+.contant-con h1{
+	font-size: 26px;
+	color: #FFF;
+}
+.medical-help{
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	margin: 10px 0;
+	width: 98%;
+}
+
+.medical-help .help-title{
+	background: none;
+	font-size:50px;
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:100px;
+}
+.boxes{
+	margin-bottom:40px;
+}
+.boxes .blue-title{
+	font-size:26px;
+	color:#0172ff;
+	font-weight:bold;
+	text-align:left;
+	padding:0;
+	margin:0;
+}
+.boxes li{
+	list-style:outside none none;
+	color:#000;
+	font-size:22px;
+	text-align:left;
+}
+.box-img{
+	padding:0;
+}
+.center-div{
+	float: none;
+    margin: auto;
+    display: table;
+	
+}
+.hr hr{
+	border-top: 1px solid #0172ff !important;
+	float: left;
+	margin: 10% 0 5% 0;
+    width: 100%;
+}
+.topics-main{
+	margin-bottom:30px;
+}
+.topics .orange-title{
+	font-size:30px;
+	color:#ff9900;
+	font-weight:bold;
+	text-align:left;
+	padding:0;
+	margin:0;
+}
+.topics p{
+	font-size:26px;
+	color:#0172ff;
+	text-align:left;
+	line-height:50px;
+}
+.topics.right-border{
+	border-right: 1px solid #0172ff !important;
+	
+	
+}
+.topics{
+	padding-left:8%;
+}
+.hr
+{
+	width: 80%;
+	margin: 0 auto;
+	float: none;
+}
+@media(max-width: 768px){
+	.medical-help .help-title{
+		text-align:center;
+	}
+	.boxes .blue-title{
+		text-align:center;
+	}
+	
+	
+	.boxes p{
+		text-align:center;
+	}
+	.boxes li{
+		text-align:center;
+	}
+	.boxes img{
+		float:none;
+		margin:auto;
+		margin-bottom:20px;
+	}
+	
+	.topics img{
+		float:none;
+		margin:auto;
+		margin-bottom:20px;
+	}
+	
+	.topics h2{
+		text-align:center;
+	}
+	.topics p{
+		text-align:center;
+	}
+	.topics .orange-title{
+		text-align:center;
+	}
+	.topics.right-border{
+	border-bottom: 1px solid #0172ff !important;
+	
+	border-right: none !important;
+	margin-bottom:20px;
+}
+	
+}

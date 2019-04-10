@@ -1,0 +1,60 @@
+/********************************************************************************
+* This script is brought to you by Vasplus Programming Blog by whom all copyrights are reserved.
+* Website: www.vasplus.info
+* Email: vasplusblog@gmail.com or info@vasplus.info
+* Please, do not remove this information from the top of this code.
+* Thank You!
+*********************************************************************************/
+
+
+.vpb_input_fields { font-family:Verdana, Geneva, sans-serif; font-size:12px;padding:10px;border: ssspx solid silver;outline:none;}.vpb_input_fields:focus {outline:none;border: 1px solid #4195fc;box-shadow: 0px 0px 5px #DEF;-moz-box-shadow: 0px 0px 5px #DEF;-webkit-box-shadow: 0px 0px 5px #DEF;}
+
+#mainBoxWrappers {
+	width:400px;
+	margin: 0 auto;
+	border: solid 1px #cbcbcb;
+	 background-color: #FFF;
+	 box-shadow: 0 0 15px #cbcbcb;
+	-moz-box-shadow: 0 0 15px #cbcbcb;
+	-webkit-box-shadow: 0 0 15px #cbcbcb;
+	-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+	padding:10px; 
+}
+
+.suggested_items_wrapper
+{
+	width:370px; 
+	border:1px solid #F1F1F1;
+}
+
+.suggested_items
+{
+	width:100% !important;
+	padding:10px;
+	cursor:pointer;
+	background:#F6F6F6;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	border-bottom:1px solid silver !important;
+}
+
+.suggested_items:hover
+{
+	background:#FFF;
+	color:#000;
+}
+
+.un_suggested_items
+{
+	padding-top:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	text-align:left;
+}
+
+.vpb_loading
+{
+	background-image:url(../images/loader.gif);
+	background-position:right;
+	background-repeat:no-repeat;
+}

@@ -1,0 +1,133 @@
+/* plugin styles */
+.expandy{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.container1 h2 {
+	font-size:16px;
+	padding-bottom:10px;
+	color: #555;
+	border-top:1px solid #CCC;
+	border-bottom:1px solid #CCC;
+	padding-top:12px;
+	margin: 0 0 -1px 0;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding-left:10px;
+	}
+.prinput input[type="text"] { 
+border:1px solid #CCC;
+border-radius:10px;
+width:60px;
+margin-top:10px;
+min-height:30px;
+	
+}
+input[type=radio], input[type=checkbox], .prinput input[type="checkbox"] { 
+border:1px solid #CCC;
+/*border-radius:5px;*/
+width:24px;
+margin-bottom:2px !important;
+min-height:20px;
+-moz-appearance:none;
+-webkit-appearance:none;
+-o-appearance:none;
+margin-left:10px !important;
+margin-right:5px !important;
+}
+input[type=radio], input[type=checkbox]:checked, .prinput input[type="checkbox"]:checked {
+	background: url('../images/check.png') no-repeat 6px 3px;
+	border: 1px solid #CCC
+}
+.prinput {
+	font-size:12px;
+	margin-top: 10px;
+	}
+.prinput input[type="button"]
+{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00bd00+0,029803+100 */
+background: #00bd00; /* Old browsers */
+background: -moz-linear-gradient(top,  #00bd00 0%, #029803 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00bd00), color-stop(100%,#029803)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #00bd00 0%,#029803 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #00bd00 0%,#029803 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #00bd00 0%,#029803 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #00bd00 0%,#029803 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bd00', endColorstr='#029803',GradientType=0 ); /* IE6-9 */
+border-radius:10px;
+width:60px;
+border:0px;
+color:#FFF;
+min-height:30px;
+margin-top: 10px;
+}
+.expandy.expandy-hidden{
+    display: none;
+}
+.expandy-toggle{
+    cursor: pointer;   
+}
+.toggle-all{
+    float: right;
+    cursor: pointer;
+    font-size: .8em;
+    font-style: italic;
+    text-decoration: underline;
+	padding-right:5px;
+}
+
+/* show/hide indicators */
+.expandy-toggle.plusminus:after{
+    content: ' [-]';
+}
+.expandy-toggle.expandy-hidden.plusminus:after{
+    content: ' [+]';
+}
+.expandy-toggle.triangle:after{
+    content: ' \25BE';
+	float:right;
+}
+.expandy-toggle.expandy-hidden.triangle:after{
+    content: ' \25B8';
+}
+.expandy-toggle.arrow:after{
+    content: ' \2191';
+}
+.expandy-toggle.expandy-hidden.arrow:after{
+    content: ' \2193';
+}
+.search_attribute{
+	width:100%;
+}
+.search_attribute h2{
+	font-size:16px;
+	padding-bottom:19px;
+	color:#555;
+	/*border-top:1px solid #CCC;*/
+	border-bottom:2px solid #CCC;
+	padding-top:12px;
+	margin:0 0 -1px 0;
+	/*border-top-left-radius:3px;
+	border-bottom-left-radius:3px;*/
+	padding-left:10px;
+}
+.search_attribute p b{
+	text-decoration:underline;
+	font-weight:normal;
+	color:#255997;
+}
+.search_attribute p{
+	padding-left:10px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.remove_searc_attribute{
+	color:#255997;
+	font-size:14px;
+	padding-right:5px;
+	cursor:pointer;
+}
+.remove_searc_attribute:hover{
+	color:#000;
+}
